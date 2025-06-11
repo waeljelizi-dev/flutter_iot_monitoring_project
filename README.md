@@ -29,7 +29,8 @@ This project aims to:
 - AI Predictions and energy-saving recommendations
 - Device management and notifications
 - Modern UI with smooth navigation and splash screen
-
+- MVVM using provider, to seperate the view from the logic
+  
 ## 🔧 Technologies Used
 
 - **ESP32 (C++)**
@@ -37,6 +38,7 @@ This project aims to:
 - **MySQL**
 - **MQTT (Mosquitto)**
 - **Flutter (Dart)**
+- **MVVM Architecture**
 - **tensorflow.js** (AI pretrained model for evaluating data and giving advices)
 
 ## 📁 Project Structure
