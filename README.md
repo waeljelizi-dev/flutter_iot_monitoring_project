@@ -1,16 +1,47 @@
-# emkamed_1
+# Emkamed IoT Project
 
-A new Flutter project.
+An IoT-based solution for real-time monitoring of power parameters (voltage, current, and power) in a high-performance Buck converter. This project integrates embedded systems, cloud services, and mobile applications to provide detailed insights into power delivery and efficiency.
 
-## Getting Started
+## ⚡ Project Overview
 
-This project is a starting point for a Flutter application.
+This project aims to:
+- Monitor the power output of a Buck converter in real time.
+- Collect data such as voltage, current, and power.
+- Send data to the cloud for storage and visualization.
+- Display analytics and AI-based recommendations in a mobile app.
 
-A few resources to get you started if this is your first Flutter project:
+## 📡 System Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **ESP32**: Reads sensor data and communicates via MQTT and REST API.
+- **Current & Voltage Sensors**: Measures power delivery of the Buck converter.
+- **Node.js Server**: Receives sensor data, stores it in a MySQL database, and performs data aggregation.
+- **Flutter Mobile App**: Displays real-time monitoring, historical data, and AI-based predictions.
+- **MySQL Database**: Stores raw data, statistics, predictions, and advices.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 AI Integration
+
+- Evaluate the data coming to the server using tensorflow.js LTSM model.
+- Generates smart energy-saving advice based on historical trends.
+
+## 📱 Mobile App Features (Flutter)
+- Real-time power monitoring
+- Statistics (Average, Min, Max over time)
+- AI Predictions and energy-saving recommendations
+- Device management and notifications
+- Modern UI with smooth navigation and splash screen
+
+## 🔧 Technologies Used
+
+- **ESP32 (C++)**
+- **Node.js + Express**
+- **MySQL**
+- **MQTT (Mosquitto)**
+- **Flutter (Dart)**
+- **tensorflow.js** (AI pretrained model for evaluating data and giving advices)
+
+## 📁 Project Structure
+├── esp32/ # ESP32 firmware
+├── server/ # Node.js server
+├── mobile_app/ # Flutter mobile application
+├── database/ # MySQL schema and scripts
+└── README.md
