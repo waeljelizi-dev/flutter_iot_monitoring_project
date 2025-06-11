@@ -16,7 +16,7 @@ This project aims to:
 - **Current & Voltage Sensors**: Measures power delivery of the Buck converter.
 - **Node.js Server**: Receives sensor data, stores it in a MySQL database, and performs data aggregation.
 - **Flutter Mobile App**: Displays real-time monitoring, historical data, and AI-based predictions.
-- **MySQL Database**: Stores raw data, statistics, predictions, and advices.
+- **MySQL Database**: Stores raw data, statistics, evaluation, and advices.
 
 ## 🧠 AI Integration
 
