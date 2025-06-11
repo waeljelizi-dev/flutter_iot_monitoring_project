@@ -40,8 +40,8 @@ This project aims to:
 - **tensorflow.js** (AI pretrained model for evaluating data and giving advices)
 
 ## 📁 Project Structure
-├── esp32/ # ESP32 firmware
-├── server/ # Node.js server
-├── mobile_app/ # Flutter mobile application
-├── database/ # MySQL schema and scripts
-└── README.md
+  - esp32/ # ESP32 firmware
+  - server/ # Node.js server
+  - mobile_app/ # Flutter mobile application
+  - database/ # MySQL schema and scripts
+  - README.md
