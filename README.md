@@ -10,14 +10,6 @@ This project aims to:
 - Send data to the cloud for storage and visualization.
 - Display analytics and AI-based recommendations in a mobile app.
 
-## 📡 System Architecture
-
-- **ESP32**: Reads sensor data and communicates via MQTT and REST API.
-- **Current & Voltage Sensors**: Measures power delivery of the Buck converter.
-- **Node.js Server**: Receives sensor data, stores it in a MySQL database, and performs data aggregation.
-- **Flutter Mobile App**: Displays real-time monitoring, historical data, and AI-based predictions.
-- **MySQL Database**: Stores raw data, statistics, evaluation, and advices.
-
 ## 🧠 AI Integration
 
 - Evaluate the data coming to the server using tensorflow.js LTSM model.
@@ -40,10 +32,3 @@ This project aims to:
 - **Flutter (Dart)**
 - **MVVM Architecture**
 - **tensorflow.js** (AI pretrained model for evaluating data and giving advices)
-
-## 📁 Project Structure
-  - esp32/ # ESP32 firmware
-  - server/ # Node.js server
-  - mobile_app/ # Flutter mobile application
-  - database/ # MySQL schema and scripts
-  - README.md
