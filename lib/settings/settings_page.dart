@@ -244,7 +244,7 @@ class SettingsPage extends StatelessWidget {
               Text(
                   "Description : Cette application vous permet de surveiller en temps réel vos dispositifs électroniques connectés, en affichant la tension, le courant, la puissance et d'autres paramètres importants."),
               SizedBox(height: 8),
-              Text("Developée dans le cadre du projet PFE L3TIC 2025."),
+              Text("Developée par jelizi wael dans le cadre du projet 2025."),
             ],
           ),
           actions: [
